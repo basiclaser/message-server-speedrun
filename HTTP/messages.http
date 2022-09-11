@@ -1,0 +1,19 @@
+// CRUD 
+GET http://localhost:8000/message
+
+####  POST
+POST http://localhost:8000/message
+content-type: application/json
+
+{
+  "authorID": "qwejqwoeu",
+  "matchID": "qweeqwdqwdwdacasc",
+  "teamID": "qweqweqweqweqwe",
+  "content": "yo wod it dew",
+  "likes": 0,
+  "dislikes": 0,
+  "isAReply": "false",
+  "replyTo": "",
+  "isDeleted": false,
+  "isEdited": false
+}
